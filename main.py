@@ -15,4 +15,5 @@ for owner in portalMallegro.getOwners():
     owner.introduce()
 
 print(portalMallegro.getOwners())
-#dodaliśmuy klasę human, teraz musimy dodać właściceli do portalu
+
+# TODO zrobić getery i setery do ogłoszenia i stsorzyć pierwsze ogłoszenia
