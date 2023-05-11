@@ -2,7 +2,8 @@ from datetime import datetime
 
 class Tools:
 
-    def generateId(self):
+    @staticmethod
+    def generateId():
         dt = datetime.now()
         ts = datetime.timestamp(dt)
 

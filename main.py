@@ -18,7 +18,12 @@ print(portalMallegro.getOwners())
 
 piano = Offer("Grand Piano Kawai B7-82", "Najepsze pianino dostępne na rynku.", 100000, janek, 300, 200)
 
-print(piano.getId())
+# print(piano.id())
+print(piano.title)
+print(piano.id)
 
-# TODO rozwizać problem z generowniem ID w Tools
-# TODO zrobić getery i setery do ogłoszenia i stsorzyć pierwsze ogłoszenia
+
+
+# TODO dokonczyc sprawdzanie setterow i getter zrobionych przez chatGPT
+
+
