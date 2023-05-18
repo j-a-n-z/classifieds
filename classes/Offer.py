@@ -16,11 +16,12 @@ class Offer:
     __status = "new"
     __mainColor = Color.BLUE
 
-    def __init__(self, title, desc, price, owner, weight, shippingPrice):
-        self.__id = 1
+    def __init__(self, title, desc, price, categories, owner, weight, shippingPrice):
+        self.__id = Tools.generateId()
         self.__title = title
         self.__desc = desc
         self.__price = price
+        self.__categories = categories
         self.__owner = owner
         self.__weight = weight
         self.__shippingPrice = shippingPrice
@@ -124,7 +125,3 @@ class Offer:
         if not isinstance(value, Color):
             raise ValueError("Main color must be a Color enum value.")
         self.__mainColor = value
-
-
-
-print(Tools.generateId())
